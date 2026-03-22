@@ -1,0 +1,23 @@
+# 核心深度学习框架
+torch>=1.10.0
+torchvision
+
+# 视觉-语义双模态模型支持
+ftfy
+regex
+tqdm
+
+# 科学计算与流形几何分析 (用于 Deff 计算)
+numpy>=1.20.0
+scipy>=1.7.0
+pandas
+
+# 机器学习工具与表征分析 (用于 RSA 与 Silhouette 计算)
+scikit-learn>=1.0.0
+
+# 数据可视化 (用于绘制 RDM 与 衰减曲线)
+matplotlib>=3.4.0
+seaborn>=0.11.0
+
+# 如果使用 OpenAI CLIP，建议通过以下方式安装（由于 pip 限制，通常在安装后单独执行）
+# pip install git+https://github.com/openai/CLIP.git
